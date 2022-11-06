@@ -9,8 +9,8 @@ const Footer = () => {
         <footer>
         <nav className="social-media-nav">
             <ul>
-                <li><a href="/#"><i className="uil uil-github-alt"></i></a></li>
-                <li><a href="/#"><i className="uil uil-linkedin-alt"></i></a></li>
+                <li><a href="https://github.com/pavan-h" target="_blank"><i className="uil uil-github-alt"></i></a></li>
+                <li><a href="https://linkedin.com/in/pavan-h" target="_blank"><i className="uil uil-linkedin-alt"></i></a></li>
             </ul>
         </nav>
         <nav className="footer-nav">

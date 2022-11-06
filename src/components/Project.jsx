@@ -13,7 +13,7 @@ const Project = () => {
           </div>
           <div className="project-list">
             {projects &&
-              projects.map(({ name, id, skills, images, livePage, github }) => (
+              projects.map(({ name, id, skills, images, livePage, github, desc }) => (
                 <div key={id} className="project">
                   <div className="project-img">
                     <a href={livePage} target="blank">
@@ -30,6 +30,9 @@ const Project = () => {
                     </div>
                     <div className="project-skills">
                       <p>{skills}</p>
+                    </div>
+                    <div className="project-desc">
+                      <p className="desc">{desc}</p>
                     </div>
                     
                   </div>

@@ -58,8 +58,12 @@
     }
 
     .project-info {
-      h2:hover {
+      h2 {
         color: $french-beige;
+      }
+
+      h2:hover {
+        color: white;
       }
     }
 
@@ -76,4 +80,9 @@
       }
     }
   }
+}
+
+.desc {
+  font-weight: 200;
+  width: 80%;
 }

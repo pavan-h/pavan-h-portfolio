@@ -37,7 +37,7 @@
     color: $dark-charcoal;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: clamp(1rem, 1rem + 2vw, 2rem);
+    font-size: clamp(1rem, 0.8rem + 2vw, 2rem);
 
     &:hover {
       color: $french-beige;

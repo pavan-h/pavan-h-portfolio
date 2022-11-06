@@ -29,18 +29,9 @@
   }
 
   &-info {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    align-items: center;
-
-    .profile {
-      visibility: hidden;
-      height: 200px;
-      width: 200px;
-      border-radius: 50%;
-      border: 1px solid red;
-    }
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 
     .social-links {
       display: flex;
@@ -49,9 +40,10 @@
 
       .social {
         display: flex;
+        margin-left: 40px;
 
         @media only screen and (min-width: 600px) {
-          flex-direction: column;
+          // margin-left: 20px;
         }
       }
 
@@ -59,11 +51,11 @@
         background-color: transparent;
         border: none;
         color: $dark-charcoal;
-        font-size: 1rem;
+        font-size: 1.3rem;
         cursor: pointer;
 
         @media only screen and (min-width: 600px) {
-          font-size: 1.5rem;
+          font-size: 2.5rem;
         }
         &:hover {
           color: white;
@@ -73,7 +65,7 @@
       }
       span,
       a {
-        font-size: 1rem;
+        font-size: 1.3rem;
         margin-top: 5px;
         margin-right: 25px;
         font-weight: 400;
@@ -84,7 +76,7 @@
           transform: scale(1.1);
         }
         @media only screen and (min-width: 600px) {
-          font-size: 1.5rem;
+          font-size: 2.5rem;
         }
       }
 
@@ -94,10 +86,8 @@
     }
 
     @media only screen and (min-width: 600px) {
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr;
-      margin-left: 100px;
-      margin-bottom: 40px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
