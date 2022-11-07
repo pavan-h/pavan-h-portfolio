@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Shoe Factory",
-    "desc": "lorem lorem lorem",
+    "desc": "The shoe factory is an online store. nice product page built with JS that is responsive for any device.",
     "github": "https://github.com/pavan-h/ShoeFactory--E-commerce-app",
     "livePage": "https://pavan-shoe-factory.netlify.app",
     "skills": "HTML, CSS, JS",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Weather App",
-    "desc": "This is a solution to the Manage landing page",
+    "desc": "website for weather forecasts For personal improvement, I decided to create this sort of weather software. This webpage makes use of the Open Weather API.",
     "github": "https://github.com/pavan-h/weather-app",
     "livePage": "https://pavan-weather-app.netlify.app",
     "skills": "HTML, CSS, JS",
